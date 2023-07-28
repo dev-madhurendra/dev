@@ -1,6 +1,6 @@
 import React from 'react'
 import { Post } from '../Post'
-import { blogs } from '@/mocks/blogs'
+import { blogs } from '../../mocks/blogs'
 
 const Posts = () => {
     return (

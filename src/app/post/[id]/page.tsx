@@ -1,10 +1,10 @@
 'use client'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import ModeEditIcon from '@mui/icons-material/ModeEdit';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { usePathname, useRouter } from 'next/navigation';
-import { blogs } from '@/mocks/blogs';
-import Footer from '@/components/Footer';
+import { usePathname } from 'next/navigation';
+import Footer from '../../../components/Footer';
+import { blogs } from '../../../mocks/blogs';
 const PostId = () => {
 
   const pathname = usePathname()
