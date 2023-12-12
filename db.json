@@ -1,0 +1,50 @@
+{
+    "products": [
+        {
+            "name": "Product 1",
+            "gross_price": 100.0,
+            "net_price": 80.0,
+            "vat": 20.0,
+            "stock": 50,
+            "available": {
+                "avaailable":10,
+                "total": 294
+            }
+            
+        },
+        {
+            "name": "Product 2",
+            "gross_price": 150.0,
+            "net_price": 120.0,
+            "vat": 30.0,
+            "stock": 30,
+            "available": {
+                "available": 15,
+                "total": 150
+            }
+        },
+        {
+            "name": "Product 3",
+            "gross_price": 80.0,
+            "net_price": 60.0,
+            "vat": 20.0,
+            "stock": 20,
+            "available": {
+                "available": 5,
+                "total": 100
+            }
+        },
+        {
+            "name": "Product 4",
+            "gross_price": 120.0,
+            "net_price": 100.0,
+            "vat": 20.0,
+            "stock": 40,
+            "available": {
+                "available": 20,
+                "total": 200
+            }
+        }
+    ]
+      
+}
